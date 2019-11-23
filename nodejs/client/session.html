@@ -1,15 +1,37 @@
 <!doctype html>
-
-<html lang="en">
+<html class="" lang="en">
 <head>
-    <meta charset="utf-8">
-
-    <title>Login</title>
+<title>Capital One | Sessions</title>
+<link rel="stylesheet" href="style.css"/>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#menu").append('<li><a>New Session</a></li>');
+    });
+});
+</script>
 </head>
-
 <body>
-<p><a href="group.html">Return to session list</a></p>
-<p>Session x receipt list</p>
-<p><a href="receipt.html">Receipt 1</a></p>
+<div>
+<img src="https://www.capitalone.co.uk/images/c1/png/social-sharing/capital-one-logo.png" style="width: 300px"/>
+</div>
+
+<h1>Sessions</h1>
+<div class="scroll" style="height: 500px;">
+<ul id="menu">
+  <li><a href="sessioninfo.html">Session 1</a></li>
+  <li>Session 2</li>
+  <li>Session 3</li>
+  <li>Session 4</li>
+  <li>Session 5</li>
+</ul>
+<button type="button">Create New Session</button>
+</div>
+<form>
+  <input type="button" value="Back" onclick="history.back()">
+</form>
+
+
 </body>
 </html>
