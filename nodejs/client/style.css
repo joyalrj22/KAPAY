@@ -1,0 +1,20 @@
+div.scroll {
+  margin:4px, 4px;
+  padding:4px;
+  width: 500px;
+  height: 110px;
+  overflow-x: hidden;
+  overflow-x: auto;
+  text-align:justify;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+input {
+  padding: 3px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
